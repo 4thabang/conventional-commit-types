@@ -16,14 +16,14 @@
 
 ## Commit aliases
 
-| Commit Type        | Maps to | Title             | Description                                               |
-|--------------------|---------|-------------------|-----------------------------------------------------------|
-| `initial`          | `init`  | Initial           | Initial commit                                            |
-| `dependencies`     | `deps`  | Dependencies      | Update dependencies                                       |
-| `peerDependencies` | `deps`  | Peer Dependencies | Update peer dependencies                                  |
-| `devDependencies`  | `deps`  | Dev Dependencies  | Update development dependencies                           |
-| `metadata`         | `fix`   | Metadata          | Update metadata (`package.json`, `go.mod`, `cargo.toml`)  |
-| `readme`           | `md`    | README            | Update README documents                                   |
+| Commit Type        | Maps to | Title             | Description                                                 |
+|--------------------|---------|-------------------|-------------------------------------------------------------|
+| `initial`          | `init`  | Initial           | Initial commit                                              |
+| `dependencies`     | `deps`  | Dependencies      | Update dependencies (`go.mod`, `cargo.toml`, `node_modules`)|
+| `peerDependencies` | `deps`  | Peer Dependencies | Update peer dependencies                                    |
+| `devDependencies`  | `deps`  | Dev Dependencies  | Update development dependencies                             |
+| `metadata`         | `fix`   | Metadata          | Update metadata (`package.json`)                            |
+| `readme`           | `md`    | README            | Update README documents                                     |
 
 ## Examples
 
@@ -31,7 +31,7 @@
 feat(init): the beginning of new things
 ```
 ```
-fix(deps): add go-chi router to project
+chore(deps): add go-chi router to project
 ```
 ```
 docs(md): give examples on how to use proxy with builtin cli commands
