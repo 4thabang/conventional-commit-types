@@ -34,6 +34,7 @@ If a commit does not warrant a commit alias, it can be omitted, as such:
 ```
 commitType: commit message
 ```
+---
 ```
 feat(init): the beginning of new things
 ```
