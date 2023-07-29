@@ -30,7 +30,10 @@ Each commit will follow the following format:
 ```
 commitType(commitAlias): commit message
 ```
-If a commit does not warrant a commit alias, it can be omitted.
+If a commit does not warrant a commit alias, it can be omitted, as such:
+```
+commitType: commit message
+```
 ```
 feat(init): the beginning of new things
 ```
